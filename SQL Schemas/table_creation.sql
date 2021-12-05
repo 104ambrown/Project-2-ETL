@@ -6,7 +6,7 @@ Create table all_games(
 	release_date date,
 	summary varchar,
 	meta_score integer,
-	user_review integer,
+	user_review decimal,
 	Primary key (name)
 );
 
@@ -17,11 +17,11 @@ Create table ps4_gamesales(
 	year date,
 	genre varchar(20),
 	publisher varchar(20),
-	sales_NA integer,
-	sales_EU integer,
-	sales_JP integer,
-	sales_other integer,
-	sales_global integer
+	sales_NA decimal,
+	sales_EU decimal,
+	sales_JP decimal,
+	sales_other decimal,
+	sales_global decimal
 );
 
 Drop table xboxone_gamesales;
@@ -32,11 +32,11 @@ Create table xboxone_gamesales (
 	year date,
 	genre varchar(20),
 	publisher varchar(20),
-	sales_NA integer,
-	sales_EU integer,
-	sales_JP integer,
-	sales_other integer,
-	sales_global integer
+	sales_NA decimal,
+	sales_EU decimal,
+	sales_JP decimal,
+	sales_other decimal,
+	sales_global decimal
 );
 
 Drop table steam;
@@ -59,7 +59,7 @@ Create table steam (
 	average_playtime integer,
 	median_playtime integer,
 	owners  integer,
-	price integer
+	price decimal
 );
 
 
