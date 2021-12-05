@@ -6,17 +6,16 @@ Create table all_games(
 	release_date date,
 	summary varchar,
 	meta_score integer,
-	user_review decimal,
-	Primary key (name)
+	user_review decimal
 );
 
 Drop table ps4_gamesales;
 
 Create table ps4_gamesales(
 	game varchar(70),
-	year date,
+	year integer,
 	genre varchar(20),
-	publisher varchar(20),
+	publisher varchar(40),
 	sales_NA decimal,
 	sales_EU decimal,
 	sales_JP decimal,
