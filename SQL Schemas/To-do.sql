@@ -24,6 +24,11 @@ final table will have
 # columns: game id, name, platform, release date, genre, publisher
 
 ToDo
+
+# catch all in sql for special characters then removing them
+# or create a database that support european character sets
+
+#find instance of different platforms in all_games
 # import csvs and change to plain text
 #count and unique values in all_games.platform
 # find and change column values
